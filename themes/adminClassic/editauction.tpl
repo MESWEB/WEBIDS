@@ -71,7 +71,7 @@
 <!-- BEGIN gallery -->
 							<div style="width:50px; float: left;">
 								<a href="{SITEURL}/{gallery.V}" title="{gallery.V}" target="_blank">
-									<img src="{SITEURL}getthumb.php?fromfile={gallery.V}" border="0" hspace="10">
+									<img src="{SITEURL}getthumb.php?fromfile={gallery.V}" border="0" hspace="10" style="width: 1000%;">
 								</a>
 								<input type="checkbox" name="gallery[]" value="{gallery.V}">
 							</div>
